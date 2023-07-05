@@ -10,7 +10,7 @@ import softwarerev from './images/software_reversed.png'
 const PastWorkshops = () => {
   return (
     <div className='past'>
-      <h1>Past Workshops</h1>
+      <h2>Past Workshops</h2>
         <div className='container'>
           <div className='box'>
             <img src={software} alt='software_icon' />
