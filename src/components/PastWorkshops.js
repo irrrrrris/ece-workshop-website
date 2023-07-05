@@ -1,18 +1,40 @@
 import React from 'react'
-import stats1 from './images/stats2023.png'
 import './PastWorkshops.css'
+import hardware from './images/hardware2.png'
+import robotics from './images/robotics2.png'
+import software from './images/software.png'
+import hardwarerev from './images/hardware2-reversed.png'
+import roboticsrev from './images/robotics2-reversed.png'
+import softwarerev from './images/software_reversed.png'
 
 const PastWorkshops = () => {
   return (
     <div className='past'>
+      <h1>Past Workshops</h1>
         <div className='container'>
-          <img src={stats1} alt='stats1' />
-          <div className='col-2'>
-            <h2>Past Workshops</h2>
-            <span className='line'></span>
-            <p>In the past workshops, most of the participants felt that the quolity of the workshops were good</p>
-            <p></p>
-            <button className='button'>See All Past Workshops</button>
+          <div className='box'>
+            <img src={software} alt='software_icon' />
+            <div className='info'>
+              <h1>Software Workshop</h1>
+              <p>We covered APS105, APS244, and ECE297. </p>
+              <a href="#" className='pushbutton'>Learn More</a>
+            </div>
+          </div>
+          <div className='box'>
+            <img src={hardware} alt='hardware_icon' />
+            <div className='info'>
+              <h1>Hardware Workshop</h1>
+              <p>We covered APS105, APS244, and ECE297. </p>
+              <a href="#" className='pushbutton'>Learn More</a>
+            </div>
+          </div>
+          <div className='box'>
+            <img src={robotics} alt='robotics_icon' />
+            <div className='info'>
+              <h1>Robotics Workshop</h1>
+              <p>We covered APS105, APS244, and ECE297. </p>
+              <a href="#" className='pushbutton'>Learn More</a>
+            </div>
           </div>
         </div>
     </div>
