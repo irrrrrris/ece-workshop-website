@@ -23,16 +23,16 @@ const handleClick = () => setClick(!click)
                     <a href='/'>Home</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Past Workshops</a>
+                    <a href='/software-page'>Software Workshops</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Schedule</a>
+                    <a href='/hardware-page'>Hardware Workshops</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>About Us</a>
+                    <a href='/'>Register</a>
                 </li>
                 <li className='nav-item'>
-                    <a href='/'>Contact</a>
+                    <a href='/hamid-contact-page'>Contact</a>
                 </li>
             </ul>
         </nav>

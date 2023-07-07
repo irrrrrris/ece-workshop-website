@@ -13,12 +13,8 @@ const Footer = () => {
             <li className='footer-item'>
                 <SocialIcon url='https://discord.gg/RgGkuRbxhQ'></SocialIcon>
             </li>
-            <li className='footer-item'>
-                <SocialIcon url="mailto:ecesummerworkshop@gmail.com" network='mailto'></SocialIcon>
-            </li>
         </ul>
         <div className='container'>
-            <h4>Email: <a href='mailto:ecesummerworkshop@gmail.com'>ecesummerworkshop@gmail.com</a></h4>
             <h4>Supervisor: Professor Hamid Timorabadi</h4>
         </div>
     </div>
