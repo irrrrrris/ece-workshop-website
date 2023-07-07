@@ -3,8 +3,6 @@ import './Hero.css'
 import hardware from './images/hardware2.png'
 import robotics from './images/robotics2.png'
 import software from './images/software.png'
-import ReactDOM from 'react-dom';
-import { SocialIcon } from 'react-social-icons';
 import Hardware from './Hardware'
 import Software from './Software'
 
@@ -23,7 +21,7 @@ const Hero = () => {
                         <div className='info'>
                             <h1>Software Workshop</h1>
                             <p>We covered APS105, APS244, and ECE297. </p>
-                            <a href="Test.html" className='pushbutton'>Learn More</a>
+                            <a href="/software-page" className='pushbutton'>Learn More</a>
                         </div>
                     </div>
                     <div className='box'>
@@ -31,27 +29,10 @@ const Hero = () => {
                         <div className='info'>
                             <h1>Hardware Workshop</h1>
                             <p>We covered ECE110, ECE221, and ECE231. </p>
-                            <a href="#" className='pushbutton'>Learn More</a>
+                            <a href="/hardware-page" className='pushbutton'>Learn More</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div className='footer'>
-            <ul className='icons'>
-                <li className='footer-item'>
-                    <SocialIcon url='https://www.instagram.com/ece_workshop_uoft/'></SocialIcon>
-                </li>
-                <li className='footer-item'>
-                    <SocialIcon url='https://discord.gg/RgGkuRbxhQ'></SocialIcon>
-                </li>
-                <li className='footer-item'>
-                    <SocialIcon url="mailto:ecesummerworkshop@gmail.com" network='mailto'></SocialIcon>
-                </li>
-            </ul>
-            <div className='container'>
-                <h4>Email: <a href='mailto:ecesummerworkshop@gmail.com'>ecesummerworkshop@gmail.com</a></h4>
-                <h4>Supervisor: Professor Hamid Timorabadi</h4>
             </div>
         </div>
     </div>
