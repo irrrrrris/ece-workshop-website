@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.hardware2023 {
+    background-color: var(--overlay);
+    color: #ffffff;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.hardware2023:before {
+    content: '';
+    background: url('./images/PCB2.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hardware2023 .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+}
