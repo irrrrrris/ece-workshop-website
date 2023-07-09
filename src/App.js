@@ -10,7 +10,14 @@ import Software from "./components/Software";
 import Hardware from "./components/Hardware";
 import NotFound from "./components/NotFound";
 import Footer from "./components/Footer";
-import hamidContact from "./components/hamidContact";
+import Hardware2023 from "./components/Hardware2023";
+import Hardware2022 from "./components/Hardware2022";
+import Microbotics from "./components/Microbotics";
+import Software2022 from "./components/Software2022";
+import Software2023 from "./components/Software2023";
+import PythonML from "./components/PythonML";
+import HamidContact from "./components/HamidContact";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -23,14 +30,14 @@ function App() {
               <Route path="/" element={<Hero />} />
               <Route path="/software-page" element={<Software/>} />
               <Route path="/hardware-page" element={<Hardware/>} />
-              <Route path="/hardware-2022-page" element={<Hardware/>} />
-              <Route path="/hardware-2023-page" element={<Hardware/>} />
-              <Route path="/microbotics-page" element={<Hardware/>} />
-              <Route path="/software-2022-page" element={<Hardware/>} />
-              <Route path="/python-ML-page" element={<Hardware/>} />
-              <Route path="/software-2023-page" element={<Hardware/>} />
-              <Route path="/aboutus" element={<Hardware/>} />
-              <Route path="/hamid-contact-page" element={<hamidContact/>} />
+              <Route path="/hardware-2022-page" element={<Hardware2022/>} />
+              <Route path="/hardware-2023-page" element={<Hardware2023/>} />
+              <Route path="/microbotics-page" element={<Microbotics/>} />
+              <Route path="/software-2022-page" element={<Software2022/>} />
+              <Route path="/python-ML-page" element={<PythonML/>} />
+              <Route path="/software-2023-page" element={<Software2023/>} />
+              <Route path="/aboutus" element={<AboutUs/>} />
+              <Route path="/hamid-contact-page" element={<HamidContact/>} />
               <Route path="/*" element={<NotFound/>} />
             </Routes>
           </main>

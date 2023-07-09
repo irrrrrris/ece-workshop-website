@@ -12,10 +12,10 @@ const Hardware = () => {
              in a team, which enhance not only the understanding of the topics but also the communication skills, research skills, and debugging skills.
           </p>
           <h2>2023 Summer</h2>
-            <a className='link' href='/hardware2023'>Hardware Workshop 1 (Nicholas Mutlak)</a>
-            <a className='link' href='/microbotics'>Hardware Workshop 2 - Microbotics - (Ryan Seto)</a>
+            <a className='link' href='/hardware-2023-page'>Hardware Workshop 1 (Nicholas Mutlak)</a>
+            <a className='link' href='/microbotics-page'>Hardware Workshop 2 - Microbotics - (Ryan Seto)</a>
           <h2>2022 Summer</h2>
-            <a className='link' href='/hardware2022'>Hardware Workshop</a>
+            <a className='link' href='/hardware-2022-page'>Hardware Workshop</a>
         </div>
     </div>
   )

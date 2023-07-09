@@ -1,7 +1,7 @@
 import React from 'react'
-import './software2022.css'
+import './Software2022.css'
 
-const software2022 = () => {
+const Software2022 = () => {
   return (
     <div className='software2022'>
         <div className='content'>
@@ -11,4 +11,4 @@ const software2022 = () => {
   )
 }
 
-export default software2022
+export default Software2022

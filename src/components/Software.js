@@ -14,10 +14,10 @@ const Software = () => {
             to put what they learnt in practice.
           </p>
           <h2>2023 Summer</h2>
-            <a className='link' href='/software2023'>Software Workshop - C & C++ - (Iris, Simon, Shuntaro)</a>
+            <a className='link' href='/software-2023-page'>Software Workshop - C & C++ - (Iris, Simon, Shuntaro)</a>
           <h2>2022 Summer</h2>
-            <a className='link' href='/software2022'>Software Workshop</a>
-            <a className='link' href='/pythonML'>Machine Learning & Python</a>
+            <a className='link' href='/software-2022-page'>Software Workshop</a>
+            <a className='link' href='/python-ML-page'>Machine Learning & Python</a>
         </div>
     </div>
   )

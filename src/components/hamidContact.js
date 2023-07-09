@@ -1,6 +1,7 @@
 import React from 'react'
+import './HamidContact.css'
 
-const hamidContact = () => {
+const HamidContact = () => {
   return (
     <div>
       Hello Hamid!
@@ -8,4 +9,4 @@ const hamidContact = () => {
   )
 }
 
-export default hamidContact
+export default HamidContact

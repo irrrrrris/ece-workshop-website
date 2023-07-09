@@ -1,14 +1,16 @@
 import React from 'react'
-import './hardware2023.css'
+import './Hardware2023.css'
 
-const hardware2023 = () => {
+const Hardware2023 = () => {
   return (
     <div className='hardware2023'>
         <div className='content'>
-            
+          <div className='aaa'>
+            Hello
+          </div>
         </div>
     </div>
   )
 }
 
-export default hardware2023
+export default Hardware2023

@@ -1,7 +1,7 @@
 import React from 'react'
-import './pythonML.css'
+import './PythonML.css'
 
-const pythonML = () => {
+const PythonML = () => {
   return (
     <div className='pythonML'>
         <div className='content'>
@@ -11,4 +11,4 @@ const pythonML = () => {
   )
 }
 
-export default pythonML
+export default PythonML

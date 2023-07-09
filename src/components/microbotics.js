@@ -1,7 +1,7 @@
 import React from 'react'
-import './microbotics.css'
+import './Microbotics.css'
 
-const microbotics = () => {
+const Microbotics = () => {
   return (
     <div className='microbotics'>
         <div className='content'>
@@ -11,4 +11,4 @@ const microbotics = () => {
   )
 }
 
-export default microbotics
+export default Microbotics
