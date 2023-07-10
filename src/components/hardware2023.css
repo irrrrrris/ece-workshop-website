@@ -5,7 +5,7 @@
 .hardware2023 {
     background-color: var(--overlay);
     color: #ffffff;
-    height: 90vh;
+    height: 110vh;
     width: 100%;
     position: relative;
 }
@@ -50,27 +50,26 @@
 .hardware2023 .content .image1 {
     height: auto;
     margin: 0rem 2rem;
-    width: 35%;
+    width: 40%;
 }
 
 .hardware2023 .content .image2 {
     height: auto;
     margin: 0rem 2rem;
-    width: 35%;
+    width: 40%;
 }
 
-#Download {
-    margin-left: 3rem;
-    display: inline;
-    font-size: 25px;
-    font-weight: 600;
+.hardware2023 .content .listContainer {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
 }
 
-.hardware2023 .content .dl {
-    margin-left: 3rem;
-    margin-top: 0.5rem;
-    font-size: 25px;
+.hardware2023 .content .listContainer li {
+    margin-left: 1rem;
+    list-style-type: circle;
     font-weight: 600;
-    color: darksalmon;
-    display: inline;
+}
+.hardware2023 .content .listContainer .list {
+    width: 50%;
 }

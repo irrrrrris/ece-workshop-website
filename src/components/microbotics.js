@@ -17,16 +17,28 @@ const Microbotics = () => {
              microcontroller to control said robot. Teams of two will compete against each other to see 
              who can finish the course the fastest and with the best tracking. We look forward to your designs!
           </p>
+          <div className='listContainer'>
+              <ul className='list'>
+                <li>Microcontrollers</li>
+                <li>Motor Control</li>
+                <li>Analog Signal</li>
+                <li>Digital Signal</li>
+                <li>PWM signal</li>
+              </ul>
+              <ul className='list'>
+                <li>Arduino IDE</li>
+                <li>CAD (Fusion 360)</li>
+                <li>3D Printing</li>
+                <li>Bluetooth Communication</li>
+                <li>Communication Protocols (UART, SPI, I2C)</li>
+              </ul>
+          </div>
+          <br></br>
           <div className='container'>
             <img className='image1' src={Robotics_1} alt='image1'></img>
             <img className='image2' src={Robotics_2} alt='image2'></img>
             <img className='image3' src={Robotics_3} alt='image3'></img>
           </div>
-          <br></br>
-          <p id='Download'>Download Lecture Slides
-            <a className='dl' href={PDF} download>PDF Format</a>
-            <a className='dl' href={PPTX} download>MS PowerPoint Format</a>
-          </p>
         </div>
     </div>
   )

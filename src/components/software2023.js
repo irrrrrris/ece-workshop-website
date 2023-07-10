@@ -54,10 +54,6 @@ const Software2023 = () => {
               </ul>
             </div>
             <br></br>
-            <p id='Download'>Download Lecture Slides
-            <a className='dl' href={PDF} download>PDF Format</a>
-            <a className='dl' href={PPTX} download>MS PowerPoint Format</a>
-            </p>
             <p id='Hyperlink'>
               <a className='link' href='https://replit.com/@ShuntaroWakamat/Sudoku'>Sudoku Project Instructor's Solution</a>
             </p>

@@ -5,7 +5,7 @@
 .microbotics {
     background-color: var(--overlay);
     color: #ffffff;
-    height: 90vh;
+    height: 110vh;
     width: 100%;
     position: relative;
 }
@@ -50,33 +50,32 @@
 .microbotics .content .image1 {
     height: auto;
     margin: 0rem 0.6rem;
-    width: 28%;
+    width: 31%;
 }
 
 .microbotics .content .image2 {
     height: auto;
     margin: 0rem 0.6rem;
-    width: 28%;
+    width: 31%;
 }
 
 .microbotics .content .image3 {
     height: auto;
     margin: 0rem 0.6rem;
-    width: 28%;
+    width: 31%;
 }
 
-#Download {
-    margin-left: 3rem;
-    display: inline;
-    font-size: 25px;
-    font-weight: 600;
+.microbotics .content .listContainer {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
 }
 
-.microbotics .content .dl {
-    margin-left: 3rem;
-    margin-top: 0.2rem;
-    font-size: 25px;
+.microbotics .content .listContainer li {
+    margin-left: 1rem;
+    list-style-type: circle;
     font-weight: 600;
-    color: darksalmon;
-    display: inline;
+}
+.microbotics .content .listContainer .list {
+    width: 50%;
 }

@@ -27,7 +27,7 @@ const Hero = () => {
                             <a href="/hardware-page" className='pushbutton'>Learn More</a>
                         </div>
                     </div>
-                    <button href='/' className='button'>Register NOW!</button>
+                    <button href='/aa' className='button'>Register NOW!</button>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
 .hardware2022 {
     background-color: var(--overlay);
     color: #ffffff;
-    height: 90vh;
+    height: 110vh;
     width: 100%;
     position: relative;
 }
@@ -57,4 +57,19 @@
     height: auto;
     margin: 0rem 2rem;
     width: 40%;
+}
+
+.hardware2022 .content .listContainer {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.hardware2022 .content .listContainer li {
+    margin-left: 1rem;
+    list-style-type: circle;
+    font-weight: 600;
+}
+.hardware2022 .content .listContainer .list {
+    width: 50%;
 }

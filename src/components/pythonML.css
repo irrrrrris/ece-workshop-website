@@ -5,7 +5,7 @@
 .pythonML {
     background-color: var(--overlay);
     color: #ffffff;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     position: relative;
 }
@@ -50,11 +50,26 @@
 .pythonML .content .image1 {
     height: auto;
     margin: 0rem 2rem;
-    width: 35%;
+    width: 40%;
 }
 
 .pythonML .content .image2 {
     height: auto;
     margin: 0rem 2rem;
-    width: 35%;
+    width: 40%;
+}
+
+.pythonML .content .listContainer {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.pythonML .content .listContainer li {
+    margin-left: 1rem;
+    list-style-type: circle;
+    font-weight: 600;
+}
+.pythonML .content .listContainer .list {
+    width: 50%;
 }
