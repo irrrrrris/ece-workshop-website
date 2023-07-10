@@ -16,6 +16,7 @@ const Hardware = () => {
             <a className='link' href='/microbotics-page'>Hardware Workshop 2 - Microbotics - (Ryan Seto)</a>
           <h2>2022 Summer</h2>
             <a className='link' href='/hardware-2022-page'>Hardware Workshop</a>
+            <a className='link' href='/pcb-2022-page'>PCB Workshop</a>
         </div>
     </div>
   )

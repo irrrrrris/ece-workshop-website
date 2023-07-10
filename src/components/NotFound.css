@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.notfound {
+    background-color: var(--overlay);
+    color: #ffffff;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.notfound:before {
+    content: '';
+    background: url('./images/NotFound.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.notfound .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.notfound .content h1 {
+    margin: 7rem 0rem 1rem 0rem;
+    font-size: 60px;
+}

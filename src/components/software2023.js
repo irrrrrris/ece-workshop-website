@@ -1,7 +1,7 @@
 import React from 'react';
 import './Software2023.css';
 import PDF from './files/SoftwareWorkshop.pdf';
-import PPTX from './files/SoftwareWorkshop.pptx'
+import PPTX from './files/SoftwareWorkshop.pptx';
 
 const Software2023 = () => {
   return (

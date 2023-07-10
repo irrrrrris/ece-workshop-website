@@ -1,7 +1,9 @@
 import React from 'react'
 import './Hardware2023.css'
-import Hardware_1 from './images/Hardware_1.jpg';
-import Hardware_2 from './images/Hardware_2.jpg';
+import Hardware_3 from './images/Hardware_3.jpg';
+import Hardware_4 from './images/Hardware_4.jpg';
+import PDF from './files/HardwareWorkshop.pdf';
+import PPTX from './files/HardwareWorkshop.pptx';
 
 const Hardware2023 = () => {
   return (
@@ -10,9 +12,14 @@ const Hardware2023 = () => {
           <h1>2022 Summer Software Workshop</h1>
           <p>In this workshop, we reviewed APS105</p>
           <div className='container'>
-            <img className='image1' src={Hardware_1} alt='image1'></img>
-            <img className='image2' src={Hardware_2} alt='image2'></img>
+            <img className='image1' src={Hardware_3} alt='image1'></img>
+            <img className='image2' src={Hardware_4} alt='image2'></img>
           </div>
+          <br></br>
+          <p id='Download'>Download Lecture Slides
+            <a className='dl' href={PDF} download>PDF Format</a>
+            <a className='dl' href={PPTX} download>MS PowerPoint Format</a>
+          </p>
         </div>
     </div>
   )

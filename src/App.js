@@ -12,6 +12,7 @@ import NotFound from "./components/NotFound";
 import Footer from "./components/Footer";
 import Hardware2023 from "./components/Hardware2023";
 import Hardware2022 from "./components/Hardware2022";
+import PCB2022 from "./components/PCB2022";
 import Microbotics from "./components/Microbotics";
 import Software2022 from "./components/Software2022";
 import Software2023 from "./components/Software2023";
@@ -31,6 +32,7 @@ function App() {
               <Route path="/software-page" element={<Software/>} />
               <Route path="/hardware-page" element={<Hardware/>} />
               <Route path="/hardware-2022-page" element={<Hardware2022/>} />
+              <Route path="/pcb-2022-page" element={<PCB2022/>} />
               <Route path="/hardware-2023-page" element={<Hardware2023/>} />
               <Route path="/microbotics-page" element={<Microbotics/>} />
               <Route path="/software-2022-page" element={<Software2022/>} />

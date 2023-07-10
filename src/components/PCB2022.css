@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.pcb2022 {
+    background-color: var(--overlay);
+    color: #ffffff;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.pcb2022:before {
+    content: '';
+    background: url('./images/PCB2.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.pcb2022 .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.pcb2022 .content h1 {
+    margin: 7rem 0rem 1rem 0rem;
+    font-size: 60px;
+}
+
+.pcb2022 .content p {
+    font-weight: 600;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.pcb2022 .content .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pcb2022 .content .image1 {
+    height: auto;
+    margin: 0rem 2rem;
+    width: 40%;
+}
+
+.pcb2022 .content .image2 {
+    height: auto;
+    margin: 0rem 2rem;
+    width: 40%;
+}
