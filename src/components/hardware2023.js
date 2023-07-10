@@ -9,8 +9,8 @@ const Hardware2023 = () => {
   return (
     <div className='hardware2023'>
         <div className='content'>
-          <h1>2022 Summer Software Workshop</h1>
-          <p>In this workshop, we reviewed APS105</p>
+          <h1>2023 Summer Hardware Workshop</h1>
+          <p>In this workshop, we reviewed ECE212, ECE221, and ECE231 </p>
           <div className='container'>
             <img className='image1' src={Hardware_3} alt='image1'></img>
             <img className='image2' src={Hardware_4} alt='image2'></img>

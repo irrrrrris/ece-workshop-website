@@ -7,7 +7,7 @@ const Hardware2022 = () => {
   return (
     <div className='hardware2022'>
         <div className='content'>
-          <h1>2022 Summer Software Workshop</h1>
+          <h1>2022 Summer Hardware Workshop</h1>
           <p>In this workshop, we reviewed APS105</p>
           <div className='container'>
             <img className='image1' src={Hardware_1} alt='image1'></img>

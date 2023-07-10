@@ -1,10 +1,8 @@
 import React from 'react'
 import './Hero.css'
 import hardware from './images/hardware.png'
-import robotics from './images/robotics2.png'
 import software from './images/software.png'
-import Hardware from './Hardware'
-import Software from './Software'
+
 
 const Hero = () => {
   return (

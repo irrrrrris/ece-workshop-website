@@ -50,19 +50,19 @@
 .microbotics .content .image1 {
     height: auto;
     margin: 0rem 0.6rem;
-    width: 30%;
+    width: 28%;
 }
 
 .microbotics .content .image2 {
     height: auto;
     margin: 0rem 0.6rem;
-    width: 30%;
+    width: 28%;
 }
 
 .microbotics .content .image3 {
     height: auto;
     margin: 0rem 0.6rem;
-    width: 30%;
+    width: 28%;
 }
 
 #Download {
@@ -74,7 +74,7 @@
 
 .microbotics .content .dl {
     margin-left: 3rem;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     font-size: 25px;
     font-weight: 600;
     color: darksalmon;
