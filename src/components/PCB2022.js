@@ -8,7 +8,8 @@ const PCB2022 = () => {
     <div className='pcb2022'>
         <div className='content'>
           <h1>2022 Summer PCB Workshop</h1>
-          <p>In this workshop, students learnt to design a PCB layout using Altium Designer software.</p>
+          <p>In this workshop, students learnt to design a PCB layout using Altium Designer software. 
+            This workshop was supervised by the Undergraduate Teaching Labs.</p>
           <div className='container'>
             <img className='image1' src={PCB_1} alt='image1'></img>
             <img className='image2' src={PCB_2} alt='image2'></img>
